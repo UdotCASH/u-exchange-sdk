@@ -13,7 +13,7 @@
     "url": "git+https://github.com/dilipomi/u-exchange-sdk.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/dilipomi"
+    "registry": "https://registry.npmjs.org"
   },
   "keywords": [
     "u-exchange",

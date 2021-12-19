@@ -1,7 +1,7 @@
 {
-  "name": "@udotcash/u-exchange-sdk",
+  "name": "@dilipomi/u-exchange-sdk",
   "license": "MIT",
-  "version": "1.0.4",
+  "version": "1.1.2",
   "description": "🛠 An SDK for building applications on top of U.EXCHANGE.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -10,7 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antron3000/u-exchange-sdk.git"
+    "url": "git+https://github.com/dilipomi/u-exchange-sdk.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/dilipomi"
   },
   "keywords": [
     "u-exchange",

@@ -16,8 +16,8 @@ export class Currency {
   /**
    * The only instance of the base class `Currency`.
    */
-  public static ETHER: Currency = new Currency(18, 'BNB', 'BNB')
-
+ // public static ETHER: Currency = new Currency(18, 'BNB', 'BNB')
+  public static ETHER: Currency = new Currency(18, 'xDAI', 'xDAI')
 
   /**
    * Constructs an instance of the base class `Currency`. The only instance of the base class `Currency` is `Currency.ETHER`.
@@ -53,6 +53,10 @@ export class Currency {
     if(cId==31){
       ETHER.name = "Smart Bitcoin"
       ETHER.symbol = "tRBTC"
+    }
+	if(cId==100){
+      ETHER.name = "xDAI"
+      ETHER.symbol = "xDAI"
     }
   }
 }

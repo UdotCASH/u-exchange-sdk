@@ -83,7 +83,7 @@ export const WETH = {
   [ChainId.BINANCE]: new Token(ChainId.BINANCE, '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'),
   [ChainId.BINANCETEST]: new Token(ChainId.BINANCETEST, '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'),
   [ChainId.RSK]: new Token(ChainId.RSK, '0xFa26ecdA879AC88AfD047cc6e046E85B9aFBa2CC', 18, 'WrBTC', 'Wrapped rBTC'),
-  [ChainId.RSKTEST]: new Token(ChainId.RSKTEST, '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'),
+  [ChainId.RSKTEST]: new Token(ChainId.RSKTEST, '0x0C7c9b794EF4beF7110EC33f95f1eb098b3a6a38', 18, 'WRBTC', 'Wrapped tRBTC'),
   [ChainId.XDAI]: new Token(ChainId.XDAI, '0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d', 18, 'WXDAI', 'Wrapped XDAI'),
   [ChainId.POLYGON]: new Token(ChainId.POLYGON, '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270', 18, 'WMATIC', 'Wrapped Matic'),
 }
